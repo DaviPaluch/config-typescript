@@ -1,5 +1,9 @@
 # config-typescript
 
+## Descrição
+
+Projeto default Typescript configurado.
+
 ## 0.1
 
 npm init -y
