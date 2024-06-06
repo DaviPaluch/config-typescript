@@ -3,7 +3,8 @@ import { categoriesRoutes } from './routes/categories.routes'
 
 const server = express()
 
-server.use(categoriesRoutes)
+server.use(express.json())
+server.use("/categories", categoriesRoutes)
 
 server.get("/", (req, res) => {
   console.log("hello world")
